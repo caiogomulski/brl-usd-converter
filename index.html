@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de Moedas</title>
+</head>
+
+<body>
+    <main>
+        <section class="pagina-inicial">
+            <div class="div">
+                <div class="texto-titulo">
+                    <h1 class="titulo">Conversor de Moedas</h1>
+                    <h2 class="subtitulo">1 USD = <span id="valorAtual"></span></h2>
+                </div>
+                <form>
+                    <p class="paragrafo">Quantia:</p>
+                    <input class="valorReal" id="valorReal" type="number" placeholder="Valor em Reais">
+                    <img class="img-converter" src="./assets/5468071.png" alt="imagem de conversão">
+                    <p class="paragrafo"> Valor convertido:</p>
+                    <input class="valorDolar" id="valorDolar" type="text" placeholder="Valor em Dolar">
+                    <button onclick="converter(event)" class="btn-converter" type="submit">Converter</button>
+                    <p id="resultado"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="script.js"></script>
+
+
+
+</body>
+</html>
